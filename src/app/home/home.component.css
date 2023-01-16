@@ -1,0 +1,86 @@
+ul {
+
+    flex-wrap: wrap;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+ul li a {
+    display: flex;
+    height: 21.5rem;
+    width: 18rem;
+    border: 1px solid lightsteelblue;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    flex-direction: column;
+    overflow: hidden;
+    color: #e72929;
+
+}
+
+li a:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.content {
+    padding: 0.5rem 1rem;
+    position: relative;
+}
+
+.favourite {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    font-size: 1.3rem;
+
+}
+
+.favourite.not {
+    color: black;
+}
+
+.stars{
+ margin-bottom: 0.2rem;
+}
+
+.price{
+    margin-top: .3rem;
+    color: #424242;
+    border-radius: 2rem;
+    background-color: whitesmoke;
+    display: inline-block;  /*if it is not there, then whitesmoke background color is given to that 
+                              /* whole line where price element is present.*/
+
+}
+
+.product-item-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.origins{
+    flex: 9; /*we dont know this, bootstrap related something.*/ 
+}
+
+.origins span{
+    color: gray;
+    font-size: .9rem;
+    margin-right: .3rem;
+    display:inline-block;
+    border-radius: 2rem;
+    background-color: whitesmoke;
+}
+
+.cook-time{
+    font-size: .9rem;
+    text-align: right;
+    flex: 3;
+    border-radius: 2rem;
+    background-color: whitesmoke;
+}
