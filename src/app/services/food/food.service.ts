@@ -54,7 +54,7 @@ export class FoodService {
         favourite: false,
         stars: 4,
         tags: ['FastFood', 'Burger', 'Lunch'],
-        imageUrl: '/assets/food1.jpg',
+        imageUrl: 'FoodOrderApplicationAngular/src/assets/food1.jpg',
         cookTime: '10-20',
         origins: ['Italy']
       },
@@ -66,7 +66,7 @@ export class FoodService {
         favourite: true,
         stars: 4.3,
         tags: ['FastFood', 'Burger', 'Lunch'],
-        imageUrl: '/assets/food2.jpg',
+        imageUrl: 'FoodOrderApplicationAngular/src/assets/food2.jpg',
         cookTime: '10-20',
         origins: ['Italy']
       },
@@ -78,7 +78,7 @@ export class FoodService {
         favourite: true,
         stars: 3.8,
         tags: ['FastFood', 'French Fries', 'BreakFast', 'Fry'],
-        imageUrl: '/assets/food3.jpg',
+        imageUrl: 'FoodOrderApplicationAngular/src/assets/food3.jpg',
         cookTime: '15-20',
         origins: ['France']
       },
@@ -90,7 +90,7 @@ export class FoodService {
         favourite: true,
         stars: 5,
         tags: ['Dhokala', 'BreakFast', 'Indian'],
-        imageUrl: '/assets/food12.jpg',
+        imageUrl: 'FoodOrderApplicationAngular/src/assets/food4.jpg',
         cookTime: '20-25',
         origins: ['India']
       },
@@ -102,7 +102,7 @@ export class FoodService {
         favourite: false,
         stars: 2.5,
         tags: ['FastFood', 'Chinese Noodles', 'BreakFast'],
-        imageUrl: '/assets/food4.jpg',
+        imageUrl: 'FoodOrderApplicationAngular/src/assets/food12.jpg',
         cookTime: '15-20',
         origins: ['China']
       },
@@ -114,7 +114,7 @@ export class FoodService {
         favourite: true,
         stars: 4.3,
         tags: ['FastFood', 'Samosa', 'BreakFast', 'Indian', 'Fry'],
-        imageUrl: '/assets/food9.jpg',
+        imageUrl: 'FoodOrderApplicationAngular/src/assets/food9.jpg',
         cookTime: '15-20',
         origins: ['India']
       },
@@ -126,7 +126,7 @@ export class FoodService {
         favourite: true,
         stars: 4,
         tags: ['Poha', 'BreakFast', 'Indian'],
-        imageUrl: '/assets/food10.jpg',
+        imageUrl: 'FoodOrderApplicationAngular/src/assets/food10.jpg',
         cookTime: '10-15',
         origins: ['India']
       },
@@ -138,7 +138,7 @@ export class FoodService {
         favourite: false,
         stars: 5,
         tags: ['FastFood', 'Paav Bhaji', 'Lunch', 'Indian'],
-        imageUrl: '/assets/food11.jpg',
+        imageUrl: 'FoodOrderApplicationAngular/src/assets/food11.jpg',
         cookTime: '15-20',
         origins: ['India']
       },
@@ -149,7 +149,7 @@ export class FoodService {
         favourite: true,
         stars: 4.7,
         tags: ['FastFood', 'Pizza', 'Lunch'],
-        imageUrl: '/assets/food5.jpg',
+        imageUrl: 'FoodOrderApplicationAngular/src/assets/food5.jpg',
         cookTime: '20-30',
         origins: ['America', 'Italy']
       },
@@ -161,7 +161,7 @@ export class FoodService {
         favourite: true,
         stars: 4.5,
         tags: ['FastFood', 'Pizza', 'Lunch'],
-        imageUrl: '/assets/food6.jpg',
+        imageUrl: 'FoodOrderApplicationAngular/src/assets/food6.jpg',
         cookTime: '10-20',
         origins: ['Italy']
       },
@@ -173,7 +173,7 @@ export class FoodService {
         favourite: true,
         stars: 4,
         tags: ['FastFood', 'Pizza', 'Lunch'],
-        imageUrl: '/assets/food7.jpg',
+        imageUrl: 'FoodOrderApplicationAngular/src/assets/food7.jpg',
         cookTime: '15-20',
         origins: ['Italy', 'India']
       },
@@ -185,7 +185,7 @@ export class FoodService {
         favourite: false,
         stars: 4.1,
         tags: ['FastFood', 'Rice', 'Lunch', 'Indian'],
-        imageUrl: '/assets/food8.jpg',
+        imageUrl: 'FoodOrderApplicationAngular/src/assets/food8.jpg',
         cookTime: '10-20',
         origins: ['India', 'China']
       }
